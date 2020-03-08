@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+}
+.navbar-bg-color {
+	background-color: #202020;
+}
+.navbar-brand-image {
+	filter:invert(90%);
+}
+.container-navbar {
+	width: 80vw;
+	margin-left: 10vw;
+}
+@media only screen and (max-width: 1000px) {
+	.container-navbar {
+		width: 100vw;
+		margin-left: 0;
+	}
+}
+.container-navbar-text {
+	color: #E5E5E5;
+	line-height: 100px;
+	font-size: 2.5em;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Kaushan Script', cursive;
+	/*font-weight: 300;*/
+}
+@media only screen and (min-width: 1000px) {
+	.container-navbar-text p::after {
+		content: "Kuopion pakettiautopalvelut";
+	}
+}
+.hero-image {
+	background-image: url(../img/sprinter-2-min.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+	/*background-attachment:cover;*/
+	min-height: 70vw;
+	/*max-height: 1000px;*/
+	width: 100%;
+	filter:brightness(85%);
+}
+.hero-img {
+	min-height: 70vw;
+	margin-bottom: -20vw;
+}
+@media only screen and (max-width: 767px) {
+	.hero-image {
+		background-image: url(../img/sprinter-3-min.jpg);
+		min-height: 100vw;
+		filter:brightness(85%);
+	}
+	.hero-img {
+		min-height: 100vw;
+		margin-bottom: 0;
+	}
+}
+
+.hero-img-container {
+	padding: 0;
+}
+.service-container {
+	padding-top: 10vh;
+}
+@media only screen and (min-width: 2000px) {
+	.service-container {
+		padding-top: 10vh;
+	}
+}
+.services {
+	font-size: 100px;
+	color: #222121;
+	padding-bottom: 20px;
+}
+.service-content {
+	text-align: center;
+}
+.service-col {
+	padding-bottom: 50px;
+}
+.service-container {
+	position:relative;
+}
+.service-title {
+	font-family: 'Kaushan Script', cursive;
+}
+.footer {
+	background-color: #262626;
+	position:relative;
+	height: 400px;
+	width: 100%;
+	bottom: 0;
+}
+.footer-text {
+	color: #E5E5E5;
+	text-align:center;
+	padding: 100px 0;
+}
+.footer-copyright-box {
+	background-color: #212121;
+	height: 100px;
+	bottom: 0;
+	position: inherit;
+}
+.copyright-text {
+	color: #E5E5E5;
+	text-align: center;
+	line-height: 100px;
+	margin-bottom: 0;
+}
+.social-media-buttons a{
+	text-decoration: none;
+	color: #E5E5E5;
+}
+.pull-right {
+	float: right;
+}
+.social-media-buttons {
+	text-align: center;
+	font-size: 1.5em;
+	color: #E5E5E5;
+	background-color: #212121;
+	height: 75px;
+	line-height: 75px;
+}
+@media only screen and (min-width: 1000px) {
+	.social-fb::after {
+		content: " Facebook";
+		/*display: flex;*/
+	}
+	.social-ig::after {
+		content: " Instagram";
+		/*display: flex;*/
+	}
+}
+.social-row {
+	display: inline-flex;
+	width: 100vw	;
+}
