@@ -2,11 +2,19 @@ body {
 	margin: 0;
 	font-family: 'Rubik', sans-serif;
 }
+p {
+	font-size: 1.5em;
+}
+a {
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #E5E5E5;
+}
 .navbar-bg-color {
 	background-color: #202020;
 }
 .navbar-brand-image {
-	filter:invert(90%);
+	filter:invert(100%);
 }
 .container-navbar {
 	width: 80vw;
@@ -26,7 +34,7 @@ body {
 	font-family: 'Kaushan Script', cursive;
 	/*font-weight: 300;*/
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
 	.container-navbar-text p::after {
 		content: "Kuopion pakettiautopalvelut";
 	}
@@ -40,7 +48,7 @@ body {
 	min-height: 70vw;
 	/*max-height: 1000px;*/
 	width: 100%;
-	filter:brightness(85%);
+	/* filter:brightness(85%); */
 }
 .hero-img {
 	min-height: 70vw;
@@ -57,7 +65,6 @@ body {
 		margin-bottom: 0;
 	}
 }
-
 .hero-img-container {
 	padding: 0;
 }
@@ -85,6 +92,7 @@ body {
 }
 .service-title {
 	font-family: 'Kaushan Script', cursive;
+	font-size: 2.5em;
 }
 .footer {
 	background-color: #262626;
@@ -97,6 +105,7 @@ body {
 	color: #E5E5E5;
 	text-align:center;
 	padding: 100px 0;
+	max-height: 400px;
 }
 .footer-copyright-box {
 	background-color: #212121;
@@ -109,6 +118,7 @@ body {
 	text-align: center;
 	line-height: 100px;
 	margin-bottom: 0;
+	font-size: 1em;
 }
 .social-media-buttons a{
 	text-decoration: none;
@@ -125,7 +135,7 @@ body {
 	height: 75px;
 	line-height: 75px;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1650px) {
 	.social-fb::after {
 		content: " Facebook";
 		/*display: flex;*/
@@ -137,5 +147,9 @@ body {
 }
 .social-row {
 	display: inline-flex;
-	width: 100vw	;
+	width: 100vw;
+}
+.social-logo {
+	font-family: 'Kaushan Script', cursive;
+
 }
